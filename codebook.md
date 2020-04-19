@@ -81,15 +81,21 @@ HAR_mean-std_dataset.txt is a table containing 180 tab-separated observations of
 
 ### Features
 
-Accelerometer : Accelerometer 3-axial (XYZ) raw signals  
-Gyroscope :     Gryoscope 3-axial (XYZ) raw signals  
+Accelerometer: Accelerometer 3-axial (XYZ) raw signals  
+
+Gyroscope: Gryoscope 3-axial (XYZ) raw signals  
+
 Accelerometer and Gyroscope signals separated into body (Body) and gravity (Gravity) signals  
-activity :      Activity label (number) was replaced by activty description  
-        WALKING (1),   
-        WALKING_UPSTAIRS (2),   
-        WALKING_DOWNSTAIRS (3),   
-        SITTING, STANDING (5),   
-        LAYING (6)  
+
+activity: Activity label (number) was replaced by activty description  
+
+    1 WALKING,  
+    2 WALKING_UPSTAIRS    
+    3 WALKING_DOWNSTAIRS  
+    4 SITTING   
+    5 STANDING   
+    6 LAYING  
+
 subject: Identification number for each subject participating in the study  
 
 ### Set of variables derived from features: 
